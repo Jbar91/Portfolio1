@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="SASS/styles.css" rel="stylesheet" />
+    <title>Guess the Number!</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <button class="reset btns">Again!</button>
+      <h1 id="main-header">Guess the Number</h1>
+      <p class="text">Try Guessing a number between 0 and 30</p>
+      <div id="guess-number" class="text">
+        The secret number is: <span class="special">?</span>
+      </div>
+      <div id="score-container">
+        <span class="text">Attempts:</span>
+        <span class="score special">10</span>
+      </div>
+      <p id="message" class="text">Start guessing the number...</p>
+      <input type="number" min="0" max="30" class="check" />
+      <button class="check-btn btns">Check</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

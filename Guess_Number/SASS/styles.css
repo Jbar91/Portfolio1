@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+body {
+  margin: 0;
+  background-color: #222;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  line-height: 1.5em;
+}
+
+#main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.btns {
+  padding: 1.4em;
+  border-radius: 15px;
+  border-color: white;
+  font-family: "Electrolize", sans-serif;
+  margin-top: 10px;
+}
+
+.btns:hover {
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccf7f8), to(#bbb));
+  background: linear-gradient(#ccf7f8, #bbb);
+}
+
+.reset {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#score-container {
+  margin: 12px 0;
+  padding: 10px;
+  line-height: 2.3em;
+}
+
+input {
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px 0;
+  border-color: black;
+  height: 2em;
+  width: 4em;
+  border-radius: 15px;
+}
+
+#main-header {
+  font-size: 4.5em;
+  padding: 5px;
+}
+
+.text {
+  font-size: 2em;
+}
+
+.special {
+  font-size: 1.8em;
+}
+/*# sourceMappingURL=styles.css.map */
